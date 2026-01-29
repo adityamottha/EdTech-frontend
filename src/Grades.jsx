@@ -18,8 +18,8 @@ function GradeCard({ level, coruseType }) {
   return (
     <div className="border rounded-xl p-6 text-center shadow-sm">
       <h4 className="text-xl font-semibold mb-2">{level}</h4>
-      <p className="text-indigo-600 font-bold mb-4">{coruseType}</p>
-      <button className="bg-indigo-600 text-white px-4 py-2 rounded">
+      <p className="text-[#1C3F60] font-bold mb-4">{coruseType}</p>
+      <button className="bg-[#1C3F60] text-white px-4 py-2 rounded">
         See More
       </button>
     </div>

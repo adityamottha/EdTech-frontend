@@ -49,11 +49,11 @@ function PriceCard({ title, price, features, highlight }) {
   return (
     <div
       className={`rounded-xl border p-6 shadow-sm text-center ${
-        highlight ? "border-indigo-600 scale-105" : ""
+        highlight ? "border-[#1C3F60] scale-105" : ""
       }`}
     >
       <h4 className="text-xl font-semibold mb-2">{title}</h4>
-      <p className="text-2xl font-bold text-indigo-600 mb-4">{price}</p>
+      <p className="text-2xl font-bold text-[#1C3F60] mb-4">{price}</p>
 
       <ul className="text-gray-600 mb-6 space-y-2">
         {features.map((item, index) => (
@@ -61,7 +61,7 @@ function PriceCard({ title, price, features, highlight }) {
         ))}
       </ul>
 
-      <button className="bg-indigo-600 text-white px-6 py-2 rounded-lg">
+      <button className="bg-[#1C3F60] text-white px-6 py-2 rounded-lg">
         Enroll Now
       </button>
     </div>
